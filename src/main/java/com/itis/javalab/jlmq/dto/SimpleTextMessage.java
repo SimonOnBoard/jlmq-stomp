@@ -1,0 +1,14 @@
+package com.itis.javalab.jlmq.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class SimpleTextMessage {
+    private String text;
+}
